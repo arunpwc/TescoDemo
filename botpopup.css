@@ -1,0 +1,68 @@
+
+.chathide{
+bottom: -20%;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+.bg {
+    /* The image used */
+    background-image: url("tesco.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.chat {
+position:fixed;
+bottom : 25px;
+right : 25px;
+border-radius : 8px;
+height : 7%;
+cursor : pointer;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+.hide{
+bottom : 25px!Important;
+}
+
+.float{
+border-radius: 8px;
+right: 25px;
+background-color: white;
+border: 1px solid #c6c6c6;
+width: 30%;
+height: 76%;
+position: fixed;
+bottom: -100%;
+transition: all 0.8s;
+}
+
+.floattab{
+padding-left: 5px;
+cursor : pointer;
+padding-top:30px;
+padding-right: 10px;
+font-size: 16px;
+color: white;
+position: fixed;
+right: 25px;    
+}
+
+.botchats{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    bottom: 5px;
+
+}
